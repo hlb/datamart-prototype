@@ -1,0 +1,769 @@
+{
+  "datasets": [
+    {
+      "id": "NEWS001",
+      "name": "聯合報全年度新聞資料",
+      "provider": "聯合報系",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 150000,
+        "wordCount": 75000000,
+        "timeRange": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "付費",
+        "pricing": {
+          "amount": 500000,
+          "currency": "TWD"
+        },
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-05"
+    },
+    {
+      "id": "NEWS002",
+      "name": "自由時報科技新聞集",
+      "provider": "自由時報",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 25000,
+        "wordCount": 12500000,
+        "timeRange": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-10"
+    },
+    {
+      "id": "NEWS003",
+      "name": "數位時代科技新聞庫",
+      "provider": "數位時代",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 10000,
+        "wordCount": 5000000,
+        "timeRange": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-20"
+    },
+    {
+      "id": "NEWS004",
+      "name": "中時財經新聞庫",
+      "provider": "中國時報",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 80000,
+        "wordCount": 40000000,
+        "timeRange": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-08"
+    },
+    {
+      "id": "NEWS005",
+      "name": "經濟日報財經資料庫",
+      "provider": "經濟日報",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 50000,
+        "wordCount": 25000000,
+        "timeRange": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "NEWS006",
+      "name": "科技新報資料庫",
+      "provider": "科技新報",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 20000,
+        "wordCount": 10000000,
+        "timeRange": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-20"
+    },
+    {
+      "id": "NEWS007",
+      "name": "聯合晚報新聞庫",
+      "provider": "聯合報系",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 100000,
+        "wordCount": 50000000,
+        "timeRange": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-20"
+    },
+    {
+      "id": "NEWS008",
+      "name": "中央社新聞資料庫",
+      "provider": "中央社",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 200000,
+        "wordCount": 100000000,
+        "timeRange": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-05"
+    },
+    {
+      "id": "NEWS009",
+      "name": "中央社歷史資料庫",
+      "provider": "中央社",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 1000000,
+        "wordCount": 500000000,
+        "timeRange": {
+          "start": "1990-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "付費",
+        "pricing": {
+          "amount": 1500000,
+          "currency": "TWD"
+        },
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-10"
+    },
+    {
+      "id": "NEWS010",
+      "name": "TVBS新聞資料庫",
+      "provider": "TVBS",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 50000,
+        "wordCount": 25000000,
+        "timeRange": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "NEWS011",
+      "name": "TVBS專題報導集",
+      "provider": "TVBS",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 10000,
+        "wordCount": 5000000,
+        "timeRange": {
+          "start": "2020-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-20"
+    },
+    {
+      "id": "NEWS012",
+      "name": "中央社地方新聞庫",
+      "provider": "中央社",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 150000,
+        "wordCount": 75000000,
+        "timeRange": {
+          "start": "2020-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "NEWS013",
+      "name": "TVBS調查報導庫",
+      "provider": "TVBS",
+      "contentType": "新聞",
+      "dataStats": {
+        "articleCount": 20000,
+        "wordCount": 10000000,
+        "timeRange": {
+          "start": "2021-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-20"
+    },
+    {
+      "id": "MAG001",
+      "name": "天下雜誌財經分析庫",
+      "provider": "天下雜誌",
+      "contentType": "雜誌",
+      "dataStats": {
+        "articleCount": 5000,
+        "wordCount": 7500000,
+        "timeRange": {
+          "start": "2020-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "付費",
+        "pricing": {
+          "amount": 300000,
+          "currency": "TWD"
+        },
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "MAG002",
+      "name": "商業周刊創業分析庫",
+      "provider": "商業周刊",
+      "contentType": "雜誌",
+      "dataStats": {
+        "articleCount": 3000,
+        "wordCount": 4500000,
+        "timeRange": {
+          "start": "2021-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究"]
+      },
+      "lastUpdate": "2024-01-18"
+    },
+    {
+      "id": "MAG003",
+      "name": "遠見雜誌產業研究庫",
+      "provider": "遠見雜誌",
+      "contentType": "雜誌",
+      "dataStats": {
+        "articleCount": 4000,
+        "wordCount": 6000000,
+        "timeRange": {
+          "start": "2021-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究"]
+      },
+      "lastUpdate": "2024-01-12"
+    },
+    {
+      "id": "MAG004",
+      "name": "今周刊財經資料庫",
+      "provider": "今周刊",
+      "contentType": "雜誌",
+      "dataStats": {
+        "articleCount": 3500,
+        "wordCount": 5250000,
+        "timeRange": {
+          "start": "2022-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究"]
+      },
+      "lastUpdate": "2024-01-05"
+    },
+    {
+      "id": "MAG005",
+      "name": "康健雜誌醫療知識庫",
+      "provider": "康健雜誌",
+      "contentType": "雜誌",
+      "dataStats": {
+        "articleCount": 2000,
+        "wordCount": 3000000,
+        "timeRange": {
+          "start": "2022-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-20"
+    },
+    {
+      "id": "MAG006",
+      "name": "數位時代科技內容庫",
+      "provider": "數位時代",
+      "contentType": "雜誌",
+      "dataStats": {
+        "articleCount": 2000,
+        "wordCount": 3000000,
+        "timeRange": {
+          "start": "2022-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究"]
+      },
+      "lastUpdate": "2024-01-20"
+    },
+    {
+      "id": "MAG007",
+      "name": "關鍵評論網調查報告",
+      "provider": "關鍵評論網",
+      "contentType": "雜誌",
+      "dataStats": {
+        "articleCount": 5000,
+        "wordCount": 7500000,
+        "timeRange": {
+          "start": "2020-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "MAG008",
+      "name": "關鍵評論網專題庫",
+      "provider": "關鍵評論網",
+      "contentType": "雜誌",
+      "dataStats": {
+        "articleCount": 3000,
+        "wordCount": 4500000,
+        "timeRange": {
+          "start": "2021-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-18"
+    },
+    {
+      "id": "MAG009",
+      "name": "關鍵評論網國際版",
+      "provider": "關鍵評論網",
+      "contentType": "雜誌",
+      "dataStats": {
+        "articleCount": 8000,
+        "wordCount": 12000000,
+        "timeRange": {
+          "start": "2021-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "付費",
+        "pricing": {
+          "amount": 200000,
+          "currency": "TWD"
+        },
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "BOOK001",
+      "name": "聯經出版社文學作品集",
+      "provider": "聯經出版社",
+      "contentType": "圖書",
+      "dataStats": {
+        "bookCount": 1000,
+        "wordCount": 100000000,
+        "timeRange": {
+          "start": "1980-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "付費",
+        "pricing": {
+          "amount": 1000000,
+          "currency": "TWD"
+        },
+        "allowedUsage": ["商業使用", "學術研究"]
+      },
+      "lastUpdate": "2023-12-20"
+    },
+    {
+      "id": "BOOK002",
+      "name": "遠流科普知識庫",
+      "provider": "遠流出版社",
+      "contentType": "圖書",
+      "dataStats": {
+        "bookCount": 500,
+        "wordCount": 50000000,
+        "timeRange": {
+          "start": "1990-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-12"
+    },
+    {
+      "id": "BOOK003",
+      "name": "時報文化社會科學庫",
+      "provider": "時報文化",
+      "contentType": "圖書",
+      "dataStats": {
+        "bookCount": 800,
+        "wordCount": 80000000,
+        "timeRange": {
+          "start": "1985-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究"]
+      },
+      "lastUpdate": "2024-01-08"
+    },
+    {
+      "id": "BOOK004",
+      "name": "商周出版財經書庫",
+      "provider": "商周出版",
+      "contentType": "圖書",
+      "dataStats": {
+        "bookCount": 300,
+        "wordCount": 30000000,
+        "timeRange": {
+          "start": "2000-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "BOOK005",
+      "name": "三民書局人文庫",
+      "provider": "三民書局",
+      "contentType": "圖書",
+      "dataStats": {
+        "bookCount": 1200,
+        "wordCount": 120000000,
+        "timeRange": {
+          "start": "1975-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-10"
+    },
+    {
+      "id": "BOOK006",
+      "name": "五南學術著作庫",
+      "provider": "五南出版",
+      "contentType": "圖書",
+      "dataStats": {
+        "bookCount": 600,
+        "wordCount": 60000000,
+        "timeRange": {
+          "start": "1995-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "BOOK007",
+      "name": "天下文化精選庫",
+      "provider": "天下文化",
+      "contentType": "圖書",
+      "dataStats": {
+        "bookCount": 400,
+        "wordCount": 40000000,
+        "timeRange": {
+          "start": "2000-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-18"
+    },
+    {
+      "id": "BOOK008",
+      "name": "城邦文化經典庫",
+      "provider": "城邦文化",
+      "contentType": "圖書",
+      "dataStats": {
+        "bookCount": 800,
+        "wordCount": 80000000,
+        "timeRange": {
+          "start": "1995-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-20"
+    },
+    {
+      "id": "EDU001",
+      "name": "康軒國小國語文教材庫",
+      "provider": "康軒文教",
+      "contentType": "教育",
+      "dataStats": {
+        "bookCount": 60,
+        "wordCount": 3000000,
+        "timeRange": {
+          "start": "2020-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2023-12-25"
+    },
+    {
+      "id": "EDU002",
+      "name": "南一數學教材資料庫",
+      "provider": "南一書局",
+      "contentType": "教育",
+      "dataStats": {
+        "bookCount": 45,
+        "wordCount": 2000000,
+        "timeRange": {
+          "start": "2021-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2023-12-28"
+    },
+    {
+      "id": "EDU003",
+      "name": "翰林國中自然科學庫",
+      "provider": "翰林出版",
+      "contentType": "教育",
+      "dataStats": {
+        "bookCount": 36,
+        "wordCount": 1800000,
+        "timeRange": {
+          "start": "2021-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究"]
+      },
+      "lastUpdate": "2024-01-05"
+    },
+    {
+      "id": "EDU004",
+      "name": "何嘉仁英語教材庫",
+      "provider": "何嘉仁",
+      "contentType": "教育",
+      "dataStats": {
+        "bookCount": 50,
+        "wordCount": 2500000,
+        "timeRange": {
+          "start": "2022-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "付費",
+        "pricing": {
+          "amount": 200000,
+          "currency": "TWD"
+        },
+        "allowedUsage": ["商業使用", "學術研究"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "EDU005",
+      "name": "龍騰高中社會科教材庫",
+      "provider": "龍騰文化",
+      "contentType": "教育",
+      "dataStats": {
+        "bookCount": 40,
+        "wordCount": 2000000,
+        "timeRange": {
+          "start": "2021-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-10"
+    },
+    {
+      "id": "EDU006",
+      "name": "翰林國小社會教材庫",
+      "provider": "翰林出版",
+      "contentType": "教育",
+      "dataStats": {
+        "bookCount": 30,
+        "wordCount": 1500000,
+        "timeRange": {
+          "start": "2022-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-12"
+    },
+    {
+      "id": "EDU007",
+      "name": "康軒國中歷史庫",
+      "provider": "康軒文教",
+      "contentType": "教育",
+      "dataStats": {
+        "bookCount": 25,
+        "wordCount": 1250000,
+        "timeRange": {
+          "start": "2022-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-15"
+    },
+    {
+      "id": "EDU008",
+      "name": "南一國中地理庫",
+      "provider": "南一書局",
+      "contentType": "教育",
+      "dataStats": {
+        "bookCount": 28,
+        "wordCount": 1400000,
+        "timeRange": {
+          "start": "2022-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["商業使用", "學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-18"
+    },
+    {
+      "id": "EDU009",
+      "name": "翰林高中物理庫",
+      "provider": "翰林出版",
+      "contentType": "教育",
+      "dataStats": {
+        "bookCount": 15,
+        "wordCount": 750000,
+        "timeRange": {
+          "start": "2022-01-01",
+          "end": "2023-12-31"
+        }
+      },
+      "licensing": {
+        "type": "免費",
+        "allowedUsage": ["學術研究", "非營利使用"]
+      },
+      "lastUpdate": "2024-01-20"
+    }
+  ]
+}
